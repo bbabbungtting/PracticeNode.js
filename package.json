@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bbabbungtting/PracticeNode.js/issues"
   },
-  "homepage": "https://github.com/bbabbungtting/PracticeNode.js#readme"
+  "homepage": "https://github.com/bbabbungtting/PracticeNode.js#readme",
+  "dependencies": {
+    "underscore": "^1.13.3"
+  }
 }
