@@ -1,0 +1,19 @@
+{
+  "name": "server_side_js",
+  "version": "1.0.0",
+  "description": "Server side js tutorials",
+  "main": "Hellow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbabbungtting/PracticeNode.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbabbungtting/PracticeNode.js/issues"
+  },
+  "homepage": "https://github.com/bbabbungtting/PracticeNode.js#readme"
+}
