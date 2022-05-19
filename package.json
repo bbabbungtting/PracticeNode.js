@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bbabbungtting/PracticeNode.js#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "underscore": "^1.13.3"
   }
 }
