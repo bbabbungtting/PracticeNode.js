@@ -1,4 +1,5 @@
 var express = require('express');
+const res = require('express/lib/response');
 var app = express();
 
 app.locals.pretty = true;
@@ -9,6 +10,24 @@ app.use(express.static('public'));
     정적인 파일 사용 가능
     node 서버 실행중에 정적인 파일 수정 가능
 */
+
+app.get('/topic', function(req,res){
+    var topics = [        
+        'Javascript is...',
+        'Nodejs is...',
+        'Express is...'
+    ]
+
+    var output = 
+    `
+    <a href="/topic?id=0">JavaScript</a><br>
+    <a href="/topic?id=1">Nodejs</a><br>
+    <a href="/topic?id=2">Express</a><br>
+    ${topics[req.query.id]}
+    `
+    res.send(output);
+})
+
 app.get('/template', function(req, res){
     res.render('temp', {time: Date(), _title:'Jade'}); //jade 파일에 변수 전달
 })
